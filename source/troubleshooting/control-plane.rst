@@ -17,7 +17,7 @@ control plane
 .. code-block:: bash
 
     # check kube-system pods
-    kubectl get pods --namespaces kube-system
+    kubectl get pods --namespace kube-system
 
     # user container runtime
     crictl --runtime-endpoint unix:///run/containerd/containerd.sock ps
